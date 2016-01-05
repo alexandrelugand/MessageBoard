@@ -1,0 +1,44 @@
+﻿/*Pour afficher les grilles Bootstrap*/
+/*div[class="row"] {
+    border: 1px dotted rgba(0, 0, 0, 0.5);
+}
+
+div[class^="col-"] {
+    background-color: rgba(255, 0, 0, 0.2);
+}*/
+.message {
+  border: 1px solid #aaa;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  background: none repeat scroll 0 0 #eaeaea;
+  margin-left: 0;
+  margin-right: -20px;
+}
+.message .title {
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #aaa;
+}
+.message .reply {
+  border-top: 1px solid #888;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.message .reply .created {
+  font-size: 9px;
+  margin-left: 10px;
+  text-shadow: 2px 2px 3px #888;
+}
+[ng\:cloak],
+[ng-cloak],
+[data-ng-cloak],
+[x-ng-cloak],
+.ng-cloak,
+.x-ng-cloak,
+.ng-hide {
+  display: none !important;
+}
+.progress {
+  margin-right: -20px;
+}

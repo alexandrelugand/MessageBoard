@@ -1,0 +1,14 @@
+﻿@model IEnumerable<MessageBoard.Data.Topic>  
+
+@{
+    ViewBag.Title = "Home Page";
+    ViewBag.ModuleName = "messageBoard";
+}
+
+@section scripts{
+    <script src="~/js/home.es5.min.js"></script>
+}
+
+<div ng-app="@ViewBag.ModuleName" ng-Cloak>
+    <div ng-view=""></div>
+</div>
