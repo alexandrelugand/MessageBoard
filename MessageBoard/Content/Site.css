@@ -6,14 +6,15 @@
 div[class^="col-"] {
     background-color: rgba(255, 0, 0, 0.2);
 }*/
+.main {
+  margin-left: 0;
+}
 .message {
   border: 1px solid #aaa;
   padding: 5px;
   margin-bottom: 5px;
   border-radius: 5px;
   background: none repeat scroll 0 0 #eaeaea;
-  margin-left: 0;
-  margin-right: -20px;
 }
 .message .title {
   font-size: 20px;

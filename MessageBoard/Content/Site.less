@@ -9,14 +9,16 @@ div[class^="col-"] {
 
 @baseMessageColor: #aaa;
 
+.main {
+    margin-left:0;
+}
+
 .message {
     border: 1px solid @baseMessageColor;
     padding: 5px;
     margin-bottom: 5px;
     border-radius: 5px;
     background: none repeat scroll 0 0 lighten(@baseMessageColor, 25%);
-    margin-left: 0;
-    margin-right: -20px;
 
     .title {
         font-size: 20px;
